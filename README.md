@@ -19,7 +19,7 @@ Note: Use it in Secure Network Only
   
 ##Running:
     Edit src/public/js/client.ls Line 2
-    socket = io.connect "http://192.168.0.7:8080" -> Edit The IP with your IP
+    socket = io.connect "http://192.168.0.7:8080" -> Change The IP Address with your IP Address
     then Compile -> See Compiling Source    
     $ cd dist
     $ node.js server.js
@@ -33,7 +33,7 @@ Note: Use it in Secure Network Only
     AutoIt Server For Windows
     Button Remote --> Check Out client.ls and server.ls you can hack it to create more Remotes
     
-##Works
+##What Works
     Gesture Swipe and Tap Remote
     Swipe Up -> Activate Key Left On Keyboard
     Swipe Down -> Activate Key Right On Keyboard
